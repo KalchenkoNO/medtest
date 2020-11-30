@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Tests</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="n_of_n">%d из %d</string>
+    <string name="start">Начать</string>
+    <string name="settings">Настройки</string>
+    <string name="results">Результаты</string>
+    <string name="number_of_questions">Всего вопросов: %d</string>
+    <string name="number_of_correct">Всего правильно: %d</string>
+    <string name="number_of_mistakes">Всего ошибок: %d</string>
+    <string name="testing_duration_min">Продолжительность тестирования (мин)</string>
+    <string name="timer_info">Чтобы отменить ограничения по времени укажите \"0\"</string>
+    <string name="count">Засчитать</string>
+    <string name="next">Далее</string>
+    <string name="skip">Пропустить</string>
+    <string name="submit">Подтвердить</string>
+    <string name="ok">ОК</string>
+    <string name="training_mode">Режим тренировки (вопросы повторяются до тех пор пока не будет получен правльный ответ)</string>
+    <string name="tries_count">Количество необходимых правильных ответов подряд</string>
+    <string name="connection_error_message">Не удалось загрузить данные, попробуйте проверить соединение с интернетом</string>
+    <string name="action_retry">Повторить</string>
+</resources>

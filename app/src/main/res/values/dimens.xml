@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="icon_small">28dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+
+    <dimen name="text_bigger">20dp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+</resources>

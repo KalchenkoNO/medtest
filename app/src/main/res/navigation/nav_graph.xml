@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentTestListing">
+
+    <include app:graph="@navigation/nav_testing" />
+
+    <fragment
+        android:id="@+id/fragmentTestListing"
+        android:name="com.ce2af4a3.tests.presentation.listing.TestListingFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_test_listing">
+        <action
+            android:id="@+id/action_start_Testing"
+            app:destination="@id/nav_testing"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim">
+            <argument
+                android:name="testUrn"
+                app:argType="string"
+                app:nullable="true" />
+        </action>
+    </fragment>
+</navigation>
